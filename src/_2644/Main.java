@@ -23,7 +23,7 @@ public class Main {
         for(int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());
             int x = Integer.parseInt(st.nextToken());
-            int y = Integer.parsewInt(st.nextToken());
+            int y = Integer.parseInt(st.nextToken());
             a[x][y] = 1;
             a[y][x] = 1;
         }
